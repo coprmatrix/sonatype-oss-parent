@@ -26,7 +26,7 @@ URL:            https://github.com/sonatype/oss-parents
 # git clone git://github.com/sonatype/oss-parents.git
 # (cd ./oss-parents; git archive --prefix %{name}-%{version}/ oss-parent-%{version}) | xz >%{name}-%{version}.tar.xz
 Source:         %{name}-%{version}.tar.xz
-Source1:        http://www.apache.org/licenses/LICENSE-2.0.txt
+Source1:        LICENSE.txt
 BuildRequires:  javapackages-local
 BuildRequires:  xz
 BuildRequires:  rpm_macro(_mavenpomdir)
